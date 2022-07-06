@@ -5,8 +5,8 @@ body{
 }
 
 header{
-    font-size: 6em;
-    font-family: cursive;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
@@ -17,4 +17,10 @@ nav{
 nav li{
     display: inline;
     font-size: 1.9em;
+}
+
+div{
+    border-width: 1.5rem;
+    border-color: rgb(100, 150, 255);
+    border-style: solid;
 }
