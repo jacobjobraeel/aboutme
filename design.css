@@ -1,26 +1,33 @@
 body{
-    background-color: #FDD935;
+    background-color: #ecdbc5;
     border: 0;
     margin: 0;
 }
 
 header{
-    font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    font-size: 250%;
+    font-variant: small-caps;
 }
 
-nav{
-    text-align: center;
-}
-
-nav li{
-    display: inline;
-    font-size: 1.9em;
-}
-
-div{
+.seperate{
     border-width: 1.5rem;
     border-color: rgb(100, 150, 255);
     border-style: solid;
+}
+
+.textbox{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    font-size: 150%;
+    quotes: jkljsdkas;
+}
+.textbox h1{
+    text-align: center;
+}
+
+#hobbies{
+    vertical-align: top;
 }
