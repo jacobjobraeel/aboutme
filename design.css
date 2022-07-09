@@ -1,11 +1,16 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #ecdbc5;
-    border: 0;
-    margin: 0;
+    font-family: 'Edu SA Beginner', cursive;;
 }
 
 header{
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     text-align: center;
     font-size: 250%;
     font-variant: small-caps;
@@ -17,17 +22,33 @@ header{
     border-style: solid;
 }
 
-.textbox{
-    display: inline-block;
-    width: 40%;
-    margin-left: 5%;
-    font-size: 150%;
-    quotes: jkljsdkas;
-}
-.textbox h1{
-    text-align: center;
+.bodyContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-#hobbies{
-    vertical-align: top;
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
+nav li{
+    font-size: 180%;
+    padding: 10px;
+    background-color: brown;
+    border: 10%;
+    border-color: blue;
+}
+nav a{
+    color:#000;
+    text-decoration: none;
+}
+
