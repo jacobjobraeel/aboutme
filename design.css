@@ -52,8 +52,8 @@ nav a{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    text-overflow: clip;
 }
 
 .bodyContent .textbox{
-    width: 30%;
 }
