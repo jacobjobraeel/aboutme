@@ -8,49 +8,44 @@ h1, nav{
 }
 
 body{
-    background-color: #ecdbc5;
+    background-color: #F3CD05;
     font-family: "Open Sans", sans-serif;
 }
 
 header{
-    /* font-family: 'Courier New', Courier, monospace; */
+    border-style: ridge;
     text-align: center;
-    font-size: 250%;
+    font-size: 2vw;
     font-variant: small-caps;
-    border-bottom: 2vw dotted steelblue;
-    border-top: 2vw dotted steelblue ;
-}
-
-.seperate{
-    border-width: 1.5rem;
-    border-color: rgb(100, 150, 255);
-    border-style: solid;
+    border-bottom: 2vw dotted #BDA589;
+    border-top: 2vw dotted #BDA589 ;
+    
 }
 
 nav{
     position:sticky;
     position: -webkit-sticky;
-    top: 0;
-    background-color: #ecdbc5;
-    padding-bottom: 2%;
+    top:0vh;
+    background-color: #36688D;
 }
 
 nav ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1.5vw;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 5%;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 2vw;
     justify-content: center;
-    padding-top: 2%;
-    font-size: 150%;
+    font-size: .8vw;
+    align-content: center;
+    grid-auto-columns: auto;
 }
 
 nav li{
     font-size: 180%;
-    padding: 10px;
-    background-color: #73DFA1;
+    padding: .2em;
+    background-color: #F49F05;
     border: 10%;
     border-color: blue;
 }
@@ -61,21 +56,24 @@ nav a{
 
 .bodyContent{
     display: grid;
-    background-color: #73DFA1;
-    grid-template-rows: auto auto auto;
+    background-color: ;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-columns: auto;
-    font-size: 300%;
+    justify-content: center;
+    align-content: center;
+    font-size: 2vw;
     text-align: center;
+
 }
 
 .textbox{
-    margin: 0 10%;
-    padding: 15% 0;
+    margin: 10% 10%;
+    background-color: #5c85a5;
 }
 
 .textbox h1{
-    background-color: hsl(0, 43%, 61%);
-    padding: 5% 5% 5% 5%;
+    background-color: #F49F05;
+    padding: 5%;
 }
 
 #contact footer{
@@ -87,5 +85,10 @@ nav a{
 
 .info{
     text-decoration: underline;
-    color: rgb(191, 172, 209);
+    font-weight: 600;
+}
+
+.fa-solid{
+    color: #d19d42;
+    font-size: 150%;
 }
